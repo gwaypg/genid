@@ -26,7 +26,8 @@ cd cmd/snowflake
 
 ## origin
 ```
-PRJ_ROOT=<genid root path> ./$PRJ_ROOT/cmd/snowflake/snowflake
+cd genid
+PRJ_ROOT=`pwd` ./cmd/snowflake/snowflake
 ```
 
 ## supd
